@@ -1,4 +1,16 @@
 {
+  "name": "smart-price-tracker",
+  "version": "1.0.0",
+  "description": "Smart Price Tracker Backend",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
