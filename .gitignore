@@ -1,5 +1,28 @@
-#folders
-node_modules
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Build files
+dist/
+
 #files
 git.txt
 
